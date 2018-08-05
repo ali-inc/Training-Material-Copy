@@ -1,0 +1,148 @@
+body {
+  font-size: 18px;
+}
+
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: rgb(30, 118, 189);
+  height: 5vh;
+}
+
+.navbar-default .navbar-brand {
+  background-color: black;
+  font-size: 22px;
+  color: yellow;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/* .navbardefault
+.navbar-toggle
+.icon-bar {
+  background: white;
+  color: white;
+} */
+
+.jumbotron {
+  display: flex;
+  margin-bottom: 0;
+  height: 100vh;/*600px;*/
+  width: 100%;
+  background-image: url(https://picsum.photos/1400/600/?random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.jumbotron h1 {
+  padding-top: 200px;
+}
+
+.animated.infinite{
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
+.profile-row {
+  background-color: #ffe;/*#FEF9E7;*/
+  margin-top: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* height: 500px; */
+}
+
+.personal-photo: {
+  height: 50px;
+  padding-top: 30px;
+}
+
+.personal-photo:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease;
+}
+
+.my-profile {
+  font-size: 18px;
+}
+
+.education-row {
+    background-color: #E7F7FF;/*#FEF9E7;*/
+    margin-top: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* height: 500px; */
+  }
+
+  .employment-row {
+    background-color: #ffe;/*#FEF9E7;*/
+    margin-top: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* height: 500px; */
+  }
+
+.footer {
+  background: rgb(30, 118, 189);
+  padding: 10px 0;
+}
+
+.footer a {
+  color: #FFE;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.footer a:hover {
+  color: orange;
+}
+
+@media screen and (max-width:992px) {
+  .personal-photo {
+    height: 300px;
+  }
+
+  .books-pic {
+    height: 200px;
+  }
+
+  .tools-pic {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .jumbotron {
+    background-image: none;
+    background: linear-gradient(#f69d3c, #3f87a6);
+  }
+
+  .jumbotron h1 {
+    color: black;
+    padding-top: 200px;
+  }
+
+  .jumbotron p {
+    color: black;
+  }
+
+  .jumbotron .btn-primary {
+    color: yellow;
+  }
+
+  .personal-photo {
+    height: 150px;
+  }
+
+  .books-pic {
+    height: 150px;
+  }
+
+  .tools-pic {
+    height: 150px;
+  }
+}

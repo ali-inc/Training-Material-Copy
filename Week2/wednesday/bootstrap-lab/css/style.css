@@ -1,0 +1,36 @@
+.navbar {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: rgb(30, 118, 189);
+  color: yellow;
+}
+
+.jumbotron {
+  margin-bottom: 10px;
+  height: 600px;
+  background-image: url(https://picsum.photos/1400/600/?random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* .col-md-3 > img, */
+.col-md-4 > img,
+.col-md-8 > img,
+.carousel-inner img {
+  width: 100%;
+}
+
+.row,
+img,
+.col-md-4,
+.col-md-8 {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+footer {
+  background-color: rgb(30, 118, 189);
+  color: white;
+}

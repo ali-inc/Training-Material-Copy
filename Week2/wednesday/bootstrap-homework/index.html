@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Intro</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/Bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ali Karami</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#profile">Profile<!--<span class="sr-only">(current)</span>--></a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Nav Bar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Ali Karami</h1>
+        <p>Technical Consultant @ Sparta Global</p>
+        <p><a class="btn btn-primary animated infinite jello" href="https://www.spartaglobal.com" role="button">Learn more about Sparta Global</a></p>
+      </div>
+    </div>
+    <!-- /Jumbotron -->
+
+    <!-- Profile -->
+    <div id="profile" class="row profile-row">
+      <div class="container">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <img src="images/ali.png" class="img-responsive center-block img-circle  personal-photo" alt="photo of Ali">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <h3>Profile</h3>
+            <p class="text-justify my-profile">Ali is an enthusiastic, hardworking and ambitious Technical Consultant with a fascination for software development and computer systems, and a passion for technical advancement. Possesses a proven ability to contribute effectively as an integral member of successful teams, utilising outstanding interpersonal communication skills to liaise competently with diverse groups of stakeholders. Ali uses initiative and a methodical approach to develop creative solutions to complex problems, working with a determination to succeed and strength to take ownership of every challenge that could possibly arise. Ali brings strong presentation skills and is committed to helping others develop while continuing to learn and grow in this exciting and progressive industry.</p>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- /Profile -->
+
+    <!-- Education -->
+    <div id="education" class="row education-row">
+      <div class="container education">
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <h3>Education</h3>
+          <br>
+          <dl class="">
+            <dt>Ph.D in Computer Science</dt>
+            <dd><a href="https://www.york.ac.uk">University of York</a> (2010 - 2016)</dd>
+            <dd>(Incomplete)</dd>
+            <hr>
+            <dt>MEng in Computer Systems and Software Engineering</dt>
+            <dd><a href="https://www.york.ac.uk">University of York</a> (2006 - 2010)</dd>
+            <dd>(1st Honours Degree)</dd>
+            <hr>
+            <dt>Associate	Degree in	Electricity–Power	Engineering</dt>
+            <dd><a href="https://www.kntu.ac.ir/Index.aspx?lang=2">K.N. Toosi University of Technology</a> (2000 - 2004)</dd>
+          </dl>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <img src="images/books.png" class="img-responsive center-block books-pic" alt="A set of books">
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- /Education -->
+
+    <!-- Employment -->
+    <div id="employment" class="row employment-row">
+      <div class="container education">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <img src="images/tools.png" class="img-responsive center-block tools-pic" alt="Some tools">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+          <h3>Employment</h3>
+          <br>
+          <dl class="">
+            <dt>Software Developer</dt>
+            <dd>Aston University (2017 - 2018)</dd>
+            <!-- <dd><a href="#">Learn more ....</a></dd> -->
+            <button type="button" class="btn btn-primary">Learn more</button>
+            <hr>
+            <dt>Warehouse Operative</dt>
+            <dd>Unipart Technology Logistics ( Dec 2017 - Jan 2018 )</dd>
+            <button type="button" class="btn btn-primary">Learn more</button>
+            <hr>
+            <dt>Online Sales Assistant</dt>
+            <dd>Crystal & Glass Co Ltd ( Apr 2017 - Sep 2018 )</dd>
+            <button type="button" class="btn btn-primary">Learn more</button>
+            <hr>
+            <dt>Teaching Assistant</dt>
+            <dd>University of York ( Oct 2010 - May 2015 )</dd>
+            <button type="button" class="btn btn-primary">Learn more</button>
+            <hr>
+            <dt>Executive Manager</dt>
+            <dd>Sepehr Afzar Saee Ltd ( Jul 2001 - May 2003 )</dd>
+            <button type="button" class="btn btn-primary">Learn more</button>
+            <hr>
+          </dl>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- /Employment -->
+
+
+    <footer class="footer">
+      <div class="container text-right float">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+        <a href="#"><i class="fa fa-skype"></i></a>
+      </div>
+      <div class="footer-copyright text-center py-3 float-left">© 2018 Copyright:
+        <a href="https://github.com/alijy"> Ali Karami</a>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
